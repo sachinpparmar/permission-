@@ -43,7 +43,9 @@ mount -a   ## for new
 df -h | grep old-mount ## for checking 
 ll old-mount
 
-
-
+### we can mount with this command also 
+mount -t cifs //csafscct01/CCT_Root/Data_Uat2/TrustInvestmentApplications/PriceMacro/3ADAM/ /cctnas2/ -o credentials=/etc/.cifscreds
+ #  we have to update in /etc/.cifscreds for credentials 
+ # in directory     /cctnas2/ 
 
 
